@@ -1,4 +1,4 @@
-var x, y, operator;
+var x, y, res1, operator;
 x = "";
 operator = "";
 y = "";
@@ -118,11 +118,13 @@ $(function(){
                     $("#result").val(y);
             }
      }
+//       if(res1.indexOf(".") == -1) {
+//                          alert("1")
+//                          res1 += ".";
+//
+//                  }
+//    }
     });
-
-
-
-
 
     $("#plus").click(function(){
 
@@ -143,7 +145,7 @@ $(function(){
      $("#mod").click(function(){
             operator = "%"
          });
-    $("#equals").click(function(){
+     $("#equals").click(function(){
      //Кнопка равно должна не работать, если в конце числа стоит точка и нет дробной части.
         if(y[y.length - 1] == ".") {
         console.log("Ошибка: В конце точка");
@@ -198,7 +200,7 @@ $(function(){
           $("#result").val(y);
   }
   });
-
+//gjjkgk
 });/**
  * Created by Денис on 04.12.2018.
  */
