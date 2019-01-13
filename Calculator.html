@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script
+    <link rel="stylesheet" href="Calculator.css"/>
+        <script
             src="https://code.jquery.com/jquery-2.2.4.min.js"
             integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
             crossorigin="anonymous"></script>
@@ -13,7 +14,8 @@
 
 <div>
 
-    <input id="result"> </input>
+    <input id="result">
+
 
     <div>
         <button id="b7">7</button>
@@ -22,6 +24,13 @@
         <button id="multiply">*</button>
         <button id="divide">/</button>
         <button id="clear">C</button>
+        <button id="ms">MS</button>
+        <button id="mr">MR</button>
+        <button id="mc">MC</button>
+        <button id="mi">MI</button>
+        <button id="m-">M-</button>
+        <button id="mshow">MSHOW</button>
+
     </div>
     <div>
         <button id="b4">4</button>
@@ -29,6 +38,11 @@
         <button id="b6">6</button>
         <button id="minus">-</button>
         <button id="del">del</button>
+        <button id="e">E</button>
+        <div class="eBlock">
+            <input id="signNumbers1" type="text" placeholder="Введите количество знаков"/>
+            <button id="insert1" type="button">Вставить</button>
+        </div>
     </div>
     <div>
         <button id="b1">1</button>
@@ -36,6 +50,7 @@
         <button id="b3">3</button>
         <button id="plus">+</button>
         <button id="mod">%</button>
+        <button id="sqr">SQR</button>
     </div>
     <div>
         <button id="b0">0</button>
@@ -43,6 +58,12 @@
         <button id="point">.</button>
         <button id="b30">000</button>
         <button id="exp">Exp</button>
+        <button id="fact">fact</button>
+        <button id="pi">Pi</button>
+        <div class="piBlock">
+            <input id="signNumbers" type="text" placeholder="Введите количество знаков"/>
+            <button id="insertPi" type="button">Вставить</button>
+        </div>
     </div>
 
 
